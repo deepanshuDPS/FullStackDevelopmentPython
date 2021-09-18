@@ -1,0 +1,32 @@
+
+.firstDiv{
+  color:red;
+}
+
+.secondDiv{
+  color: #730080;
+}
+
+#singledout{
+  color: blue;
+  text-decoration: line-through;
+}
+
+h3 + ul {  /* h3 + means element immediate after h3*/
+  border: 4px dotted purple;
+}
+
+li a{  /*  decendent of li will be styled*/
+  color: #813d80;
+}
+
+li a[href="www.google.com"]{ /* for perticular hrefs */
+  color: blue;
+  border: 2px solid orange;
+}
+
+
+/* * = astrick override all the classes */
+/* *{
+  color: black;
+} */

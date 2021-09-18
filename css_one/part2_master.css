@@ -1,0 +1,23 @@
+
+
+body{
+  /* background-color: gray; */
+  background: url(https://www.sammobile.com/wp-content/uploads/2019/01/default_wallpaper.png)
+  background-repeat: no-repeat;
+}
+
+div{
+  background-color: red;
+  border-color:blue;
+  border-width: medium; /*also be written in pixels */
+  border-style: double;
+}
+
+p{
+  color:orange;  /* all paragraph elements */
+}
+
+span{
+  background: red;
+  color: black;
+}

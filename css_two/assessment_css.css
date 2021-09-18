@@ -1,0 +1,37 @@
+h2{
+  font-family: monospace;
+  margin: 15px;
+  text-align: center;
+}
+
+table{
+  margin: auto; /* automatically align content in center*/
+}
+
+td{
+  width:120px;
+  height: 230px;
+  border: 6px solid white;  /* td has no margins so use borders*/
+}
+
+
+#one{
+  background-color: red;
+}
+
+#two{
+  background-color: blue;
+}
+
+#three{
+  background-color: green;
+}
+
+#four{
+  background-color: yellow;
+
+}
+
+#five{
+  background-color: orange;
+}

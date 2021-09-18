@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>MTV-Model Template Views</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
+</head>
+<body>
+  <h1>Hi this is MTV assessment in django two</h1>
+  <h2>Here you have all records</h2>
+  <div class="djangotwoacc">
+    {% if all_records %}
+      <ol>
+        {% for i,j in all_records.items %}
+            <li>
+              {{ i }}
+              <ul>
+                {% for k in j %}
+                  <li>
+                    {{ k.name }}
+                  </li>
+                {% endfor %}
+              </ul>
+            </li>
+        {% endfor %}
+      </ol>
+      {% else %}
+          <p>No Records Found</p>
+      {% endif %}
+  </div>
+</body>
+</html>

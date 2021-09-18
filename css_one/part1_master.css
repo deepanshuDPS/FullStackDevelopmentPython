@@ -1,0 +1,17 @@
+/* this is a comment */
+/* selected tag{
+  propertry:value;
+} */
+
+h1{
+  color: blue;
+  background: rgb(1,4,1);
+}
+
+p{
+  color:#ff0000;
+}
+
+li{
+  color:rgba(1,4,1,0.5); /* a is alpha here*/
+}

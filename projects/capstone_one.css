@@ -1,0 +1,47 @@
+
+body{
+  background-color: #020d2b;
+  color: white;
+  font-family: "Arial";
+  font-size: 1.3em;
+  margin: 0px;
+  text-align: center;
+}
+
+
+.dataDiv{
+  border-left: 60px solid #00b9c0;
+  border-right: 60px solid #00b9c0;
+  border-bottom: 60px solid #00b9c0;
+  margin: 0px;
+padding: 0px;
+  align-content: center;
+  background-color: #020d2b;
+}
+
+form p{
+  text-align: center;
+  margin: auto;
+}
+
+p{
+  text-align: center;
+  margin: 70px 300px 70px 300px;
+}
+
+.inputs{
+  width: 300px;
+  height: 30px;
+  font-size: 18px;
+  color:black;
+}
+
+.signUpButton{
+  padding: 20px 15px 20px 15px;
+  background-color: #f09c00;
+  border: 2px double white;
+  font-size: 20px;
+  font-style: bold;
+  margin: 10px;
+  border-radius: 25px
+}

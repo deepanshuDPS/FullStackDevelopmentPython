@@ -1,0 +1,25 @@
+
+.text{
+  text-align: center;
+  margin:5px
+}
+
+.gameTable{
+  margin: auto;
+}
+
+td {
+  height: 100px;
+  width: 100px;
+  background: '#bbb';
+  border-radius: 50%;
+  display: inline-block;
+  margin: 2px;
+}
+
+td{
+  border: 2px solid black;
+  height: 100px;
+  width: 100px;
+  background-color: 'grey'
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html >
+<head>
+    <meta charset="UTF-8">
+    <title>MTV-Model Template Views</title>
+    <link rel="stylesheet" href="{% static "css/mystyle.css" %}">
+</head>
+<body>
+  <h1>Hi welcome to django level 2</h1>
+  <h2>Here you have access records</h2>
+  <div class="djangotwo">
+    {% if access_records %}
+      <table>
+        <th>Site Name</th>
+        <th>Date Accessed</th>
+        {% for acc in access_records %}
+        <tr>
+          <td>{{acc.name}}</td>
+          <td>{{acc.date}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+      {% else %}
+          <p>No Access Records Found</p>
+      {% endif %}
+  </div>
+</body>
+</html>

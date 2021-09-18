@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends 'app/base.html' %}
+{% block title_block %}
+Index
+{% endblock %}
+{% block body_block %}
+      <h1>In the index</h1>
+      <h1>This is an example of template inheritence</h1>
+      <h1>{{ text|upper }}</h1> <!--filters-->
+      <h1>{{ num|add:'200'}}</h1> <!--filters-->
+      <h2>{{ text|cut:'hello'}}</h2> <!--custom filters-->
+{% endblock %}
